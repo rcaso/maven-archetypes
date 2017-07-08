@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.shava</groupId>
     <artifactId>shava-backendapp-archetype</artifactId>
-    <version>0.1</version>
+    <version>0.2</version>
     <packaging>maven-archetype</packaging>
     <name>shava-backendapp-archetype</name>
     <description>Estructura base para un proyecto backend que exporta apis ReestFul incluido seguridad con Keycloak </description>
