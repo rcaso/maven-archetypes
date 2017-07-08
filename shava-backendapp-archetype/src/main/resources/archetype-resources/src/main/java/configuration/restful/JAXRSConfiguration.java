@@ -6,13 +6,13 @@ import javax.ws.rs.core.Application;
 
 /**
  * <ul>
- * <li>Copyright 2016 Ministerio Publico - Fiscalia de la Nacion. Todos los derechos reservados.</li>
+ * <li>Copyright 2017 Shava. Todos los derechos reservados.</li>
  * </ul> 
  * 
  * La Class JAXRSConfiguration.
  * 
- * @author OSIS
- * @version 1.0 , 29/04/2016
+ * @author RCASO
+ * @version 1.0 , 29/04/2017
  */
 @ApplicationPath("resources")
 public class JAXRSConfiguration extends Application {
