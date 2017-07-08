@@ -1,0 +1,17 @@
+<archetype xmlns="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/plugins/maven-archetype-plugin/archetype/1.0.0 http://maven.apache.org/xsd/archetype-1.0.0.xsd">
+	<id>shava-backendapp-archetype</id>
+	<sources>
+		<source>src/main/java/configuration/entitymanager/ProducerDataBase.java</source>
+		<source>src/main/java/configuration/restful/JAXRSConfiguration.java</source>
+	</sources>
+	<resources>
+		<resource>src/main/resources/META-INF/persistence.xml</resource>
+		<resource>src/main/resources/ApplicationConfiguration.properties</resource>
+		<resource>src/main/resources/StageConfiguration.properties</resource>
+		<resource>src/main/resources/Stage.properties</resource>
+		<resource>src/main/webapp/WEB-INF/beans.xml</resource>
+		<resource>src/main/webapp/WEB-INF/web.xml</resource>
+	</resources>
+</archetype>
